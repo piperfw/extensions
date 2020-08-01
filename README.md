@@ -1,2 +1,2 @@
 # extensions
-Handy browser scripts
+Handy browser scripts for chrome and qutebrowser
