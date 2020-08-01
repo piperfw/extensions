@@ -1,0 +1,5 @@
+#!/bin/bash
+institution_domain='st-andrews.ac.uk'
+pattern="s/\(http[sS]:\/\/\)\([^/]*\)\//\1\2.ezproxy.$institution_domain\//"
+url=`echo $QUTE_URL | sed $pattern`
+echo "open $url" >> $QUTE_FIFO
