@@ -12,10 +12,10 @@ Handy browser scripts for chrome and qutebrowser
 ## Avaiable Extensions
 ### doiselected
 Looks for a valid doi object in the current selection (PRIMARY) and navigates to
-the associated url.\\
+the associated url.  
 Default keybinding is `Ctrl+Shift+2` in Chrome.
 ### ezprozy
-Inserts `.ezproxy.institutional-domain-name` into the current url and reloads the page.\\
+Inserts `.ezproxy.institutional-domain-name` into the current url and reloads the page.  
 Default keybinding is `Ctrl+Shift+1` in Chrome.
 
 ## Installation
