@@ -1,6 +1,6 @@
 {
 "name":"Go to doi using current selection",
-"description":"First first doi object in current selection and navigate to the associated url. Default key binding is Ctrl+Shift+2.",
+"description":"First first doi object in current selection and navigate to the associated url. The default key binding is Ctrl+Shift+2.",
 "browser_action":{
 "default_icon":"icon-512x512.png",
 "default_popup":"doiwrap.html"

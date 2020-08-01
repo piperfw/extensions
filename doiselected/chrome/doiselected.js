@@ -1,3 +1,4 @@
+new Promise((resolve, reject) => {
 chrome.tabs.executeScript(
 	// Get object in PRIMARY (selection) and do something to it 
 	{code: "window.getSelection().toString();"},
@@ -18,5 +19,8 @@ chrome.tabs.executeScript(
 		// Point current tab to doi url and go
 		chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
 		chrome.tabs.update(tabs[0].id, {url: doiUrl});});
+		resolve("url updated");
 	}
 );
+})
+.finally(() => window.close());
