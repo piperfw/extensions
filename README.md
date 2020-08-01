@@ -13,10 +13,14 @@ Handy browser scripts for chrome and qutebrowser
 ### doiselected
 Looks for a valid doi object in the current selection (PRIMARY) and navigates to
 the associated url.  
-Default keybinding is `Ctrl+Shift+2` in Chrome.
+In Chrome, the default keybinding is `Ctrl+Shift+2'. Alternatively, click on the
+extension's icon in the toolbar.
 ### ezprozy
-Inserts `.ezproxy.institutional-domain-name` into the current url and reloads the page.  
-Default keybinding is `Ctrl+Shift+1` in Chrome.
+Inserts `.ezproxy.institution-domain-name` into the current url and reloads the page.  
+In Chrome, the default keybinding is `Ctrl+Shift+1'. Alternatively, click on the
+extension's icon in the toolbar.
+The initial `instution-domain-name` is `st-andrews.ac.uk`. To change this, edit
+the variable `insitutionDomain` in `background.js` and `ezproxy.js` (Chrome). 
 
 ## Installation
 ### Chrome / Chromium
