@@ -15,7 +15,8 @@ Handy browser scripts for chrome and qutebrowser
 Looks for a valid doi object in the current selection (PRIMARY) and navigates to
 the associated url.  
 In Chrome, the default keybinding is `Ctrl+Shift+2'. Alternatively, click on the
-extension's icon in the toolbar.
+extension's icon in the toolbar.  
+Suggested qutebrowser keybinding is `ez`.
 ### doiselectedfeelinglucky
 Like *doiselected*, but if no doi is found in the current selection (e.g. it is 
 empty) the current webpage is searched for a doi. 
@@ -30,4 +31,8 @@ the variable `insitutionDomain` in `background.js` and `ezproxy.js` (Chrome).
 ### Chrome / Chromium
 Navigate to `chrome://extensions`. Switch on *developer mode* using the slider in the top right hand corner. Click 'Load unpacked' and select the `extension-name/chrome` directory (this should be placed somewhere 'safe' i.e. permanent on your firesystem). Key bindings can be adjusted from `chrome://extensions/shortcuts`.
 ### qutebrowser
-
+Make `extension-name/qutebrowser/script-name` executable (`chmod +x`) and either
+place this file in `~/.local/share/qutebrowser/userscripts` and evoke in
+qutebrowser with `:spawn --userscript script-name` or simply evoke with an
+absolute path e.g. `:spawn --userscript
+/home/user/extensions/extension-name/qutebrowser/script-name`. 
