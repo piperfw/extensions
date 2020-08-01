@@ -19,5 +19,6 @@ Inserts `.ezproxy.institutional-domain-name` into the current url and reloads th
 
 ## Installation
 ### Chrome / Chromium
+Navigate to `chrome://extensions`. Switch on *developer mode* using the slider in the top right hand corner. Click 'Load unpacked' and select the `extension-name/chrome` directory (this should be placed somewhere 'safe' i.e. permanent on your firesystem). Key bindings can be adjusted from `chrome://extensions/shortcuts`.
 ### qutebrowser
 
