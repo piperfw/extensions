@@ -4,6 +4,7 @@ Handy browser scripts for chrome and qutebrowser
 ## Contents
 ### [Available Extensions](#available-extensions)
 #### [doiselected](#doiselected)
+#### [doiselectedfeelinglucky](#doiselectedfeelinglucky)
 #### [ezproxy](#ezproxy)
 ### [Installation](#installation)
 #### [Chrome /  Chromium](#chrome/chromium)
@@ -15,6 +16,9 @@ Looks for a valid doi object in the current selection (PRIMARY) and navigates to
 the associated url.  
 In Chrome, the default keybinding is `Ctrl+Shift+2'. Alternatively, click on the
 extension's icon in the toolbar.
+### doiselectedfeelinglucky
+Like *doiselected*, but if no doi is found in the current selection (e.g. it is 
+empty) the current webpage is searched for a doi. 
 ### ezprozy
 Inserts `.ezproxy.institution-domain-name` into the current url and reloads the page.  
 In Chrome, the default keybinding is `Ctrl+Shift+1'. Alternatively, click on the
