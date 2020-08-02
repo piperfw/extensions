@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "open -t $QUTE_URL" >> $QUTE_FIFO
+hint_num=$( cat ~/.cache/qute_hint_num )
+hint_num=$(( $hint_num + 1 ))
+for i in $( seq 1 $hint_num )
+do
+	echo "tab-prev" >> $QUTE_FIFO
+done
+echo $hint_num > ~/.cache/qute_hint_num
+echo "hint links userscript keephinting" >> $QUTE_FIFO

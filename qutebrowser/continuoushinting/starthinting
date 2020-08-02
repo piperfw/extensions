@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo 0 >  ~/.cache/qute_hint_num
+echo "hint links userscript keephinting" >> $QUTE_FIFO
