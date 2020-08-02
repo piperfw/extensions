@@ -37,11 +37,14 @@ page use `:spawn --userscript starthinting`. Press escape when you want to stop
 hinting.
 
 #### <a name="doiselected2"></a> doiselected 
-Todo
+Looks for a valid doi object in the current selection (PRIMARY) and navigates to
+the associated url.  If the selection is empty, or no valid doi string is found,
+the current webpage is searched. A suggested key binding is `zd`. This script
+is written in python3.
 
 #### <a name="ezproxy2"></a> ezproxy
 Inserts `.ezproxy.institution-domain-name` into the current url and reloads the page.
-Suggested keybinding `ez` or `ze`. Your institution's domain name should be set in
+Suggested key bindings are `ze` or `ez`. Your institution's domain name should be set in
 `ezproxy`. This script is written in bash and uses `sed`.
 
 ## <a name="installation2"></a> Installation
