@@ -3,25 +3,25 @@ Handy browser scripts for chrome and qutebrowser
 
 ## Contents
 ## [Chrome](#chrome)
-### [doiselected](#doiselected)
-### [ezproxy](#ezproxy)
+- [doiselected](#doiselected)
+- [ezproxy](#ezproxy)
 ## [qutebrowser](#qutebrowser)
-### [continuoushinting](#continuoushinting)
-### [doiselected](#doiselected2)
-### [ezproxy](#ezproxy2)
+- [continuoushinting](#continuoushinting)
+- [doiselected](#doiselected2)
+- [ezproxy](#ezproxy2)
 ## [Installation](#installation)
-### [Chrome /  Chromium](#chrome/chromium)
-### [qutebrowser](#qutebrowser2)
+- [Chrome /  Chromium](#chrome/chromium)
+- [qutebrowser](#qutebrowser2)
 
 ## Chrome
-### doiselected
+### <a name="doiselected"></a> doiselected
 Looks for a valid doi object in the current selection (PRIMARY) and navigates to
 the associated url.  If the selection is empty, or no valid doi string is found,
 the text from the current webpage is searched.
 
 The default keybinding is `Ctrl+Shift+2`. Alternatively, click on the
 extension's icon in the toolbar.
-### ezprozy
+### <a name="ezproxy"></a>  ezprozy
 Inserts `.ezproxy.institution-domain-name` into the current url and reloads the page.  
 The default keybinding is `Ctrl+Shift+1`. Alternatively, click on the
 extension's icon in the toolbar.
